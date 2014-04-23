@@ -37,6 +37,7 @@ public class PDFValidator {
 
     public static void main(String args[]){
         PDFValidator validator = new PDFValidator();
+        //Pass the zip code to validate.
         System.out.println("Zip Code Validation for Customer ::: " + validator.validateZip("12345"));
     }
 }
